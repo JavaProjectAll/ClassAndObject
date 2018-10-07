@@ -2,7 +2,7 @@ package baitap2_PhuongTrinhBac2_Lop;
 
 public class EquationDisplay {
     public static void main(String[] args) {
-        QuadraticEquation b2 = new QuadraticEquation(2, 4, 2);
+        QuadraticEquation b2 = new QuadraticEquation(2, -8, 2);
         System.out.println("Phương trình bậc 2: " + (int) b2.getA() + "x^2 + " +
                 (int) b2.getB() + "x + " + (int) b2.getC() + " = 0");
         System.out.println("Delta = "+b2.getDiscriminant());

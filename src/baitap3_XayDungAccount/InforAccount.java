@@ -5,8 +5,7 @@ import java.util.Date;
 
 public class InforAccount {
     public static void main(String[] args) throws Exception{
-        Date date = new SimpleDateFormat("dd/MM/yyyy").parse("10/10/2004");
-
+        Date date = new SimpleDateFormat("dd/MM/yyyy").parse("10/11/2004");
         Account acc = new Account(01, 1000000, 5.5, date);
         System.out.println("ID = " + acc.getId());
         System.out.println("Số tiền = " + acc.getBalance());
